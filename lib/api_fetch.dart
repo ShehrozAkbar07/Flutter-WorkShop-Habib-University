@@ -12,7 +12,7 @@ class ApiFetch extends StatefulWidget {
 
 class _ApiFetchState extends State<ApiFetch> {
   List<String> users = [];
-
+//user
   void _fetchUser() async {
     var url = Uri.parse('https://jsonplaceholder.typicode.com/users');
     var response = await http.get(url);
